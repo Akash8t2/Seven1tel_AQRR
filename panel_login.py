@@ -20,15 +20,15 @@ LOGIN_POST_URL = f"http://{BASE_IP}/ints/signin"
 API_URL = f"http://{BASE_IP}/ints/client/res/data_smscdr.php"
 REFERER_URL = f"http://{BASE_IP}/ints/client/SMSCDRReports"
 
-PANEL_USERNAME = "asikvai257"
-PANEL_PASSWORD = "asikvai257"
+PANEL_USERNAME = "kop999"
+PANEL_PASSWORD = "kop999"
 
 # TELEGRAM CONFIGURATION
-BOT_TOKEN = "8400075740:AAGG02N9gioj3_SKmcPWftPrRrZ1XMB-ohw"
-GROUP_IDS_WITH_DOTS = [-1002324773831, -1002337919084]  # Groups that receive numbers with ••
+BOT_TOKEN = "7448362382:AAGzYcF4XH5cAOIOsrvJ6E9MXqjnmOdKs2o"
+GROUP_IDS_WITH_DOTS = [-1003405109562, -1003140739791]  # Groups that receive numbers with ••
 GROUP_IDS_WITHOUT_DOTS = []  # Groups that receive full numbers (no ••)
-PANEL_URL = "https://t.me/CodeZone9bot"
-ALL_NUMBERS_URL = "https://t.me/ssss12344556"
+PANEL_URL = "https://t.me/Aktrybot"
+ALL_NUMBERS_URL = "https://t.me/+FzMuku4rLO1mYmY1"
 
 # Initialize bot for callback handling
 bot = telebot.TeleBot(BOT_TOKEN)
