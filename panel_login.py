@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import requests
 import re
 import datetime
@@ -374,4 +375,5 @@ if __name__ == "__main__":
         print("✅ All configuration values are set!")
         print("\n🚀 Starting forwarder...\n")
         run_forwarder()
+
 
